@@ -1,0 +1,183 @@
+.productdis {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 100px;
+  }
+  
+  /* LEFT SIDE */
+  .left {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .img-list img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .productdis-main-img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* RIGHT SIDE */
+  .right {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+  
+  .right h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 5px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .prices {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .oldprice {
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .newprice {
+    color: #e53935;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .des {
+    white-space: nowrap;   /* prevent breaking into new lines */
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  
+  /* SIZE */
+  .size {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .size h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .select {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .select div {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .select div:hover {
+    background: #ffebeb;
+    border-color: #e53935;
+  }
+  
+  /* BUTTON */
+  .right button {
+    width: 220px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #e53935;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  .right button:hover {
+    background: #cc2f2f;
+  }
+  
+  /* CATEGORY + TAGS */
+  .productdisplayright {
+    font-size: 15px;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .productdisplayright span {
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  
+  /* CATEGORY + TAGS */
+.productdisplayright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .productdisplayright span {
+    font-weight: 600;
+    color: #222;
+    margin-right: 5px;
+  }
+  
+  /* Make category/tags inline and nice */
+  .productdisplayright {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap; /* wrap if text is too long */
+  }
+  
+  /* Optional: add tag-like style */
+  .productdisplayright .tag {
+    background: #f2f2f2;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 13px;
+    color: #555;
+  }
+
+  

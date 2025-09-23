@@ -1,0 +1,89 @@
+.loginsignup {
+    width: 100%;
+    height: 100%;
+    background: #fce3fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+   
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    margin-bottom: 100px;
+    padding: 35px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+  }
+  
+  /* inputs stacked vertically */
+  .fills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .fills input {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .fills input:focus {
+    border-color: #9c27b0;
+  }
+  
+  /* button below inputs */
+  button {
+    margin-top: 10px;
+    background: #9c27b0;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #7b1fa2;
+  }
+  
+  .login {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .login span {
+    color: #9c27b0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .agree {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    color: #555;
+    text-align: left;
+  }
+  
